@@ -1,0 +1,14 @@
+# .gitignore
+
+# dependencies
+node_modules
+
+# build files
+dist
+
+# IDE
+.idea
+.vscode
+
+# misc
+coverage
