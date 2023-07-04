@@ -1,6 +1,6 @@
 import { ErrorMsg } from '../../core/constants/ui-error-msg';
 import { ScanMsg } from '../../core/constants/scan-msg';
-import { IUserInterface } from '../../domain/interfaces/console-ui';
+import { IUserInterface } from '../../domain/interfaces/user-Interface';
 import { IConsoleViews } from '../../domain/interfaces/console-views';
 import { IMachine } from '../../domain/interfaces/machine';
 import { Utils } from '../../core/utils/utils';

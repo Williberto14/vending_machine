@@ -1,4 +1,4 @@
-import { IUserInterface } from "./domain/interfaces/console-ui";
+import { IUserInterface } from "./domain/interfaces/user-Interface";
 import { PaymentService } from "./core/services/payment-service";
 import { ProductService } from "./core/services/product-service";
 import { Machine } from "./core/machine/machine";
