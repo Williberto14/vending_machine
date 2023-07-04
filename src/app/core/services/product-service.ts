@@ -21,7 +21,8 @@ export class ProductService implements IProductService {
 
     const product = this.getProductById(id);
 
-    if (!product) return false;
+    if (!product)
+      return false;
 
     return product.getQuantity() > 0
   }
@@ -29,11 +30,14 @@ export class ProductService implements IProductService {
   decreaseProductQuantity(id: number): boolean {
     const product = this.getProductById(id);
 
-    if (!product) return false;
+    if (!product)
+      return false;
 
-    if (!this.validateStock(id)) return false;
+    if (!this.validateStock(id))
+      return false;
 
     product.setQuantity(product.getQuantity() - 1);
+
     return true;
   }
 }

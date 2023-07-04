@@ -18,7 +18,8 @@ export class PaymentService implements IPaymentService {
 
   processPayment(amount: number): boolean {
 
-    if (this.credit < amount) return false;
+    if (this.credit < amount)
+      return false;
 
     this.credit -= amount;
     return true;
